@@ -1,0 +1,274 @@
+/*!
+ * Maktrick blue UI
+ */
+
+/* GENERAL (BOOTSTRAP RESET)
+-------------------------------------------------- */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-athens-gray {
+    background-color: #e4e6e9;
+}
+
+a {
+    color: #335eea;
+}
+
+a:hover {
+    color: #2b50c7;
+}
+
+a:focus {
+    outline: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.navbar-default {
+    background-color: #335eea;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .fa-navicon {
+    color: #fff;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.card-list a {
+    color: inherit;
+}
+
+.card-list .card {
+    margin: 0 0 10px;
+    border-color: #335eea;
+    border-radius: 0;
+}
+
+.card-list .card .card-header {
+    border: none;
+    border-radius: 0;
+    background-color: #335eea;
+    color: #fff;
+}
+
+.card-list .card .card-title {
+    margin-bottom: 0;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+}
+
+.show > .btn-success.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.tooltip-inner {
+    border-radius: 0;
+}
+
+.table-striped-reverse tbody tr:nth-of-type(2n) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+/* MAIN CONTENT
+-------------------------------------------------- */
+.page-content {
+    padding: 20px;
+    border: 1px solid #cdcfd1;
+    border-top: 0;
+    background-color: #fff;
+}
+
+.page-header {
+    margin: 0 0 20px;
+    border-bottom: 1px dotted #cdcfd1;
+}
+
+.page-header h1,
+.page-header h2 {
+    font-weight: 300;
+}
+
+/* DATATABLES
+-------------------------------------------------- */
+table.dataTable {
+    border-collapse: collapse !important;
+}
+
+.dataTables_wrapper {
+    padding: 0;
+}
+
+.dataTables_wrapper .row:first-child {
+    margin: 0;
+    padding: 15px 0 10px;
+    background-color: #eff3f8;
+}
+.dataTables_length label,
+.dataTables_filter label {
+    font-size: 14px;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+    border-radius: 0;
+}
+
+.page-item.active .page-link {
+    background-color: #335eea;
+    border-color: #335eea;
+}
+
+/* FLASHSCORE
+-------------------------------------------------- */
+.flashscore__menu .dropdown-item.active,
+.flashscore__menu .dropdown-item:active {
+    background-color: #28a745;
+}
+
+.league tr td {
+    border: none;
+}
+
+.league tr td.time {
+    width: 6%;
+}
+
+.league tr td.team-home {
+    width: 35%;
+}
+
+.league tr td.score {
+    width: 12%;
+}
+
+.league tr td.team-away {
+    width: 35%;
+}
+
+.league tr td.half-time {
+    width: 6%;
+    color: #b0b0b0;
+}
+
+.league__standings {
+    float: right;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
+.standings__teams tr td.col-small {
+    width: 50px;
+}
+
+.standings__teams tr td.goal-difference {
+    width: 70px;
+}
+
+.standings__teams tr:nth-child(1) td:first-child {
+    background-color: #335eea;
+    color: #ffffff;
+}
+
+.standings__teams tr:nth-child(5) td:first-child,
+.standings__teams tr:nth-child(6) td:first-child {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.standings__teams tr:nth-child(7) td:first-child,
+.standings__teams tr:nth-child(8) td:first-child {
+    background-color: #a01c28;
+    color: #ffffff;
+}
+
+.standings__menu {
+    border-bottom: 5px solid #28a745;
+}
+
+.standings__menu .nav-item {
+    margin: 0;
+}
+
+.standings__menu .nav-link.active {
+    border-color: #28a745;
+    border-radius: 0;
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* ADDITIONAL
+-------------------------------------------------- */
+.copyright {
+    margin: 5px 0 50px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.copyright a {
+    margin: 0 0 0 10px;
+}
+
+#loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* ICONS
+-------------------------------------------------- */
+.spec {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.spec-technical {
+    background: url("../img/icon/technical.png") center no-repeat;
+}
+
+.spec-powerful {
+    background: url("../img/icon/powerful.png") center no-repeat;
+}
+
+.spec-quick {
+    background: url("../img/icon/quick.png") center no-repeat;
+}
+
+.spec-head {
+    background: url("../img/icon/head.png") center no-repeat;
+}
+
+.spec-unpredictable {
+    background: url("../img/icon/unpredictable.png") center no-repeat;
+}
+
+.spec-regainer {
+    background: url("../img/icon/regainer.png") center no-repeat;
+}

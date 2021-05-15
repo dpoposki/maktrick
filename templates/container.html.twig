@@ -1,0 +1,39 @@
+{% extends 'layout.html.twig' %}
+
+{% block container %}
+    <nav class="navbar navbar-expand-sm navbar-default" role="navigation">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url('default.home') }}"><i class="fas fa-trophy"></i> Maktrick</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('youth.index') }}">У17 потенцијали</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="page-content">
+                    {% block content %}{% endblock %}
+                </div>
+                <div class="mt-2 float-right">
+                    <img src="{{ absolute_url('/assets/img/chpp.png') }}" alt="Certified Hattrick Product Provider">
+                </div>
+                <div class="copyright">
+                    &copy; 2013 - {{ 'now' | date('Y') }} Maktrick
+                    <a href="https://maktrick.blogspot.com/feeds/posts/default" rel="tooltip" title="RSS Feed"><span class="fas fa-rss"></span></a>
+                    <a href="https://www.facebook.com/maktrick" rel="tooltip" title="Facebook"><span class="fab fa-facebook-f"></span></a>
+                    <a href="https://twitter.com/maktrick" rel="tooltip" title="Twitter"><span class="fab fa-twitter"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

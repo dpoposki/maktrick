@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4850ba427863fb7b7fb3bc5b4f25e458",
+    "content-hash": "ceb22c06b423b1a91777239cfad302b0",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -1570,6 +1570,47 @@
                 }
             ],
             "time": "2021-01-14T21:52:44+00:00"
+        },
+        {
+            "name": "jetwitaussi/pht",
+            "version": "3.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jetwitaussi/PHT.git",
+                "reference": "1edf9d83d71915248d1ff0862038fdf6f3a7e375"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jetwitaussi/PHT/zipball/1edf9d83d71915248d1ff0862038fdf6f3a7e375",
+                "reference": "1edf9d83d71915248d1ff0862038fdf6f3a7e375",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "ext-pcre": "*",
+                "ext-reflection": "*",
+                "ext-xml": "*",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHT\\": "PHT"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Beerware"
+            ],
+            "description": "PHP Framework for CHPP applications related to Hattrick website",
+            "homepage": "https://github.com/jetwitaussi/PHT",
+            "support": {
+                "issues": "https://github.com/jetwitaussi/PHT/issues",
+                "source": "https://github.com/jetwitaussi/PHT/tree/3.9"
+            },
+            "time": "2021-04-01T20:36:00+00:00"
         },
         {
             "name": "laminas/laminas-code",
@@ -8097,7 +8138,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.2.5",
+        "php": ">=7.3",
         "ext-ctype": "*",
         "ext-iconv": "*"
     },

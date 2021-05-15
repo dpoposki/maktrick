@@ -29,3 +29,10 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+    App\Factory\CHPPFactory:
+        arguments:
+            $config:
+                consumer_key: '%env(CHPP_CONSUMER_KEY)%'
+                consumer_secret: '%env(CHPP_CONSUMER_SECRET)%'
+                oauth_token: '%env(CHPP_OAUTH_TOKEN)%'
+                oauth_token_secret: '%env(CHPP_OAUTH_TOKEN_SECRET)%'

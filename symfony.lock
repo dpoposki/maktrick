@@ -88,6 +88,9 @@
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.3"
     },
+    "jetwitaussi/pht": {
+        "version": "3.9"
+    },
     "laminas/laminas-code": {
         "version": "4.2.1"
     },
